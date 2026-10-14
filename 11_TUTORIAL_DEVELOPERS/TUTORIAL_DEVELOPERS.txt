@@ -1,0 +1,25 @@
+ Tutorial — Developers — SKYWATER_PDK
+
+Company: Anticloud FZ LLE
+Model: PAX L5 Narrow L2 General 27B
+Project: SKYWATER_PDK | Category: SEMICONDUCTOR
+Upstream: https://github.com/google/skywater-pdk (Apache 2.0)
+
+ Overview
+
+This document covers tutorial — developers for the Anticloud integration of SKYWATER_PDK.
+
+SkyWater open-source 130nm PDK
+
+ Anticloud Integration
+
+PAX L5 Narrow L2 General 27B is integrated into SKYWATER_PDK to provide:
+- Local AI inference with zero cloud dependency
+- AIOSS tamper-evident audit chain
+- AES-256 encryption at rest
+- Single-binary deployment
+
+ Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
