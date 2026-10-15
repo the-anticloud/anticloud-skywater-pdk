@@ -1,0 +1,159 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:b0c10eff-c2b8-5205-81cb-b966f495f3cb",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:48:54Z",
+  "component": {
+   "type": "application",
+   "name": "SKYWATER_PDK",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/SKYWATER_PDK@83b357604d34",
+   "purl": "pkg:generic/anticloud/SKYWATER_PDK@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "2.0",
+   "version": "unspecified",
+   "purl": "pkg:generic/2.0",
+   "bom-ref": "conda/2.0@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "License-Identifier",
+   "version": "unspecified",
+   "purl": "pkg:generic/License-Identifier",
+   "bom-ref": "conda/License-Identifier@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pdk-scripts",
+   "version": "unspecified",
+   "purl": "pkg:generic/pdk-scripts",
+   "bom-ref": "conda/pdk-scripts@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "litex-hub",
+   "version": "unspecified",
+   "purl": "pkg:generic/litex-hub",
+   "bom-ref": "conda/litex-hub@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "defaults",
+   "version": "unspecified",
+   "purl": "pkg:generic/defaults",
+   "bom-ref": "conda/defaults@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python",
+   "version": "3.8",
+   "purl": "pkg:generic/python@3.8",
+   "bom-ref": "conda/python@3.8"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:generic/pip",
+   "bom-ref": "conda/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "yosys",
+   "version": "unspecified",
+   "purl": "pkg:generic/yosys",
+   "bom-ref": "conda/yosys@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "netlistsvg",
+   "version": "unspecified",
+   "purl": "pkg:generic/netlistsvg",
+   "bom-ref": "conda/netlistsvg@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "iverilog",
+   "version": "unspecified",
+   "purl": "pkg:generic/iverilog",
+   "bom-ref": "conda/iverilog@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "-r",
+   "version": "unspecified",
+   "purl": "pkg:generic/-r",
+   "bom-ref": "conda/-r@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "sample",
+   "version": "=sample:main",
+   "purl": "pkg:pypi/sample@sample:main",
+   "bom-ref": "pypi/sample@=sample:main"
+  },
+  {
+   "type": "library",
+   "name": "pdk-docs",
+   "version": "unspecified",
+   "purl": "pkg:generic/pdk-docs",
+   "bom-ref": "conda/pdk-docs@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "symbiflow",
+   "version": "unspecified",
+   "purl": "pkg:generic/symbiflow",
+   "bom-ref": "conda/symbiflow@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "..",
+   "version": "unspecified",
+   "purl": "pkg:generic/..",
+   "bom-ref": "conda/..@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "skywater-pdk",
+   "version": "unspecified",
+   "purl": "pkg:generic/skywater-pdk",
+   "bom-ref": "conda/skywater-pdk@unspecified"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
